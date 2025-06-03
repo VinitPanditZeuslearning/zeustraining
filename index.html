@@ -11,9 +11,11 @@
 
 <body>
 
-    <div>
-        <h1> It is not my first web page </h1>
+
+    <div id="HeadingCont">
+        My first web page
     </div>
+
 
     <h2> What this is </h2>
     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium placeat adipisci quia perferendis ratione vel
@@ -25,58 +27,63 @@
         <li> List elements </li>
         <ol>
             <li> Home </li>
-            <li> About</li>
+            <li> FAQ</li>
+            <li>Contact</li>
+            <li>About</li>
         </ol>
+        <li> Here i have created ordered and unordered Nst</li>
     </ul>
 
-    <h3> ZeusLearning.com</h3> <br>
-    <a href="https://www.zeuslearning.com/"> direct to the zeus learning</a> <br><br>
+    <h2> ZeusLearning.com</h2> 
+    <a href="https://www.zeuslearning.com/"> direct to the zeus learning</a> <br>
 
-    <img src="./static/R.png" alt="" id="ImageId"><br>
-    <a href="https://www.google.co.in/">Google</a>
+    <h2> On click of following image naviage to Google.com </h2> <br>
 
-    <p>
-    <h2> some random table </h2>
-    </p>
+    <a href="https://www.google.co.in/"> <img src="./static/R.png" alt="" id="ImageId"></a>
+    
+    <div id="tableHeading"> some random table </div>
 
-    <table style="width: 30%">
-
+    <table id="Table" style="width: 30%">
         <tr>
-            <th>dt1</th>
-            <th>dt2</th>
-            <th>dt3</th>
+            <td>row1 cell1</td>
+            <td>row1 cell2</td>
+            <td>row1 cell3</td>
         </tr>
-        <tr>
-            <td>dt1</td>
-            <td>dt2</td>
-            <td>dt3</td>
+         <tr>
+            <td>row2 cell1</td>
+            <td>row2 cell2</td>
+            <td>row2 cell3</td>
         </tr>
-        <tr>
-            <td>s1</td>
-            <td>s2</td>
-            <td>s3</td>
+         <tr>
+            <td>row3 cell1</td>
+            <td>row3 cell2</td>
+            <td>row3 cell3</td>
         </tr>
     </table>
 
-    <h3> Some random form </h3>
+    <div id="tableHeading"> some random form </div>
 
 
-    <p><b> note: </b> doesnt have any action on this form</p>
+    <div id="note"><b> NOTE: </b> doesnt have any action on this form</div>
     <p>Name: </p>
-    <input type="text" id="Name">
+    <input type="text" id="Name" placeholder="Your Name">
     <p>comments: </p>
     <textarea name="something" id="txtarea" placeholder="Your comment"></textarea>
 
-    <p> are you: </p>
+    <p> Are you: </p>
     <label>
         <input type="radio" name="option" value="option1"> male
     </label>
+    <br>
+    <br>
 
     <label>
         <input type="radio" name="option" value="option2"> female
     </label>
+    <br>
+    <br>
 
-    <button id="submit">submit</button>
+    <button id="submit">Submit Query</button>
 
 
 </body>
