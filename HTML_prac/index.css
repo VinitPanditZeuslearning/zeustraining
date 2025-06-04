@@ -30,7 +30,7 @@ td {
 }
 
 #tableHeading {
-        color: grey;
+    color: grey;
     font-size: 20px;
     color: grey;
     font-weight: 600;
@@ -58,6 +58,7 @@ h2 {
 li {
 
     color: #990000;
+    font-style: italic;
 }
 
 #ImageId {
@@ -68,6 +69,7 @@ li {
 #note {
     font-family: math;
 }
+
 b {
     font-weight: 800;
     font-style: italic;
@@ -75,4 +77,11 @@ b {
 
 a {
     text-decoration: none;
+}
+#txtareaCont {
+    width: 250px;
+    height: 300px;
+    /* overflow: scroll; */
+    overflow-y: scroll;
+    overflow-x: hidden;
 }
