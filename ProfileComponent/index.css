@@ -1,0 +1,66 @@
+#container {
+    height: 130px;
+    width: 450px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 25px;
+    padding: 5px;
+    border: 1px solid black;
+}
+
+#img {
+    height: 125px;
+    width: 125px;
+    object-fit: contain;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 7px;
+}
+
+#name {
+    font-weight: bold;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#description {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#otherAct {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 25px;
+    margin-top: 10px;
+    /* margin-bottom: 5px; */
+}
+
+.actLogo {
+    object-fit: contain;
+    height: 20px;
+    width: 20px;
+}
+
+.actTxt {
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.Acts {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
