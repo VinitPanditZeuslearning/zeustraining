@@ -1,6 +1,17 @@
-#container {
-    height: 130px;
-    width: 450px;
+
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('./static//myfonts.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+*{
+    font-family: 'Roboto' ;
+}
+.container {
+    height: 138px;
+    width: 457px;
     background-color: rgb(255, 255, 255);
     display: flex;
     flex-direction: row;
@@ -9,11 +20,12 @@
     padding: 5px;
     border: 1px solid rgb(163, 163, 163);
     box-shadow: 0px 0px 10px rgb(149 144 144);
+    margin: 4px;
 }
 
 #img {
-    height: 125px;
-    width: 125px;
+    height: 130px;
+    width: 130px;
     object-fit: contain;
 }
 
@@ -22,25 +34,24 @@
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-    gap: 7px;
+    gap: 14px;
 }
 
 #name {
     font-weight: bold;
-    font-size: 16px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
 }
 
 #description {
-    font-size: 16px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight:100;
 }
 
 #otherAct {
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 25px;
+    gap: 24px;
     margin-top: 10px;
     /* margin-bottom: 5px; */
 }
@@ -52,8 +63,7 @@
 }
 
 .actTxt {
-    color: grey;
-    font-family: Arial, Helvetica, sans-serif;
+    color: #858991;
     font-weight: 400;
     font-size: 12px;
 }
@@ -61,7 +71,7 @@
 .Acts {
     display: flex;
     flex-direction: row;
-    gap: 10px;
+    gap: 14px;
     justify-content: center;
     align-items: center;
 }

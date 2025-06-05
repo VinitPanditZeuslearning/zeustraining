@@ -21,24 +21,24 @@ function pofileComponent(name, description, imgname, commentCount, shareCount, l
         lkCnt = lk.toFixed(2);
     }
     const container = document.createElement('div');
-    container.id = "container"
+    container.className = "container"
     let html = `
-        <div id="imgContainer">
+        <div class="imgContainer">
             <img id="img" src="./static/${imgname != "" ? imgname : "default.png"}" alt="">
         </div>
         <div id="content">
             <span id="name"> @${name} </span>
             <span id="description"> ${description} </span>
             <div id="otherAct"> 
-                <div class="Acts" id="comment" >
+                <div class="Acts" >
                     <img class="actLogo" src="https://img.icons8.com/?size=100&id=143&format=png&color=000000" alt="">
                     <span class="actTxt"> ${cmCnt}${cmk >= 1 ? "k" : ""} </span>
                 </div>
-                <div class="Acts" id="share" >
+                <div class="Acts">
                     <img class="actLogo" src="https://img.icons8.com/?size=100&id=43859&format=png&color=000000" alt="">
                     <span class="actTxt">  ${rpCnt}${rpk >= 1 ? "k" : ""} </span>
                 </div>
-                <div class="Acts" id="like" >
+                <div class="Acts">
                     <img class="actLogo" src="https://img.icons8.com/?size=100&id=87&format=png&color=000000" alt="">
                     <span class="actTxt">  ${lkCnt}${lk >= 1 ? "k" : ""} </span>
                 </div>
