@@ -51,7 +51,8 @@ function pofileComponent(name, description, imgname, commentCount, shareCount, l
 }
 
 
-const body = document.querySelector('body');
+const parent = document.getElementById('parent');
+
 pofileComponent(
     "Mosh hamedani",
     "I'd love to teach you HTML/CSS!",
@@ -59,14 +60,24 @@ pofileComponent(
     2253,
     5,
     20,
-    body
+    parent
+);
+
+pofileComponent(
+    "JohnDoe",
+    "This is a default image",
+    "",
+    2,
+    500,
+    200,
+    parent
 );
 pofileComponent(
     "JohnDoe",
     "This is a default image",
     "",
-    2000,
-    5000,
-    2000,
-    body
+    2,
+    500,
+    200,
+    parent
 );
