@@ -54,7 +54,7 @@ function pofileComponent(name, description, imgname, commentCount, shareCount, l
 const parent = document.getElementById('parent');
 
 pofileComponent(
-    "Mosh hamedani",
+    "moshhamedani",
     "I'd love to teach you HTML/CSS!",
     "profile1.jpg",
     2253,
@@ -78,6 +78,15 @@ pofileComponent(
     "",
     2,
     500,
+    200,
+    parent
+);
+pofileComponent(
+    "JohnDoe",
+    "This is a default image",
+    "",
+    2,
+    5000,
     200,
     parent
 );

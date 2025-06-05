@@ -7,6 +7,9 @@ body {
 
 }
 
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
 
 table,
 th,
@@ -19,13 +22,16 @@ td {
 #HeadingCont {
     background-color: rgb(153 0 0);
     color: rgb(255, 239, 167);
-    font-family: monospace;
-    font-size: 24px;
-    letter-spacing: 0.3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    letter-spacing: 0.8rem;
     font-style: italic;
     box-shadow: 0px 10px #cc0000;
     display: flex;
     justify-content: center;
+    align-items: center;
+    height: 45px;
 
 }
 
@@ -78,10 +84,13 @@ b {
 a {
     text-decoration: none;
 }
-#txtareaCont {
+textarea {
+    overflow-y: scroll;
+    resize: none;
+}
+/* #txtareaCont {
     width: 250px;
     height: 300px;
-    /* overflow: scroll; */
     overflow-y: scroll;
     overflow-x: hidden;
-}
+} */
